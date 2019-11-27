@@ -1,0 +1,16 @@
+{
+  "name": "Leave in Peace",
+  "version": "0.1",
+  "description": "Block/remove annoying modals that try to prevent you from leaving a website",
+  "permissions": [
+    "https://*/"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "run_at": "document_end",
+      "js": ["src/index.js"]
+    }
+  ],
+  "manifest_version": 2
+}
