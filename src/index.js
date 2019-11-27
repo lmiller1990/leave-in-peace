@@ -1,6 +1,8 @@
 /**
  * Popup Maker
  * Homepage: https://wppopupmaker.com/
+ *
+ * Example: https://doseme-rx.com
  */
 const blockPopupMaker = () => {
   const arr = Array.from(document.getElementsByClassName("pum-overlay"))
